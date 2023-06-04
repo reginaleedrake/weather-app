@@ -10,6 +10,7 @@
     crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Weather App</title>
 </head>
 <body>
@@ -17,16 +18,13 @@
         <div class="weather-app-wrapper">
             <div class="weather-app">
                 <div class="overview">
-    <h1>
-        San Francisco, CA 
+    <h1 id="city">
     </h1>
     <ul>
     <li>
         Friday 05:00
     </li>
-    <li>
-        Partly Cloudy
-    </li>
+    <li id="description"></li>
 </ul>
 </div>
 <div class="row">
@@ -37,10 +35,9 @@ alt="Partly Cloudy"
 class="float-left"
 />
 <div class="float-left">
-    <strong>12</strong>
-    <span class="units">°C |°F
-    </span>
-</div>
+    <strong id="temperature"></strong>
+    <span class="units">°C | <a href="#">°F</a></span>
+    </div>
 </div>
 </div>
 <div class="col-6">
@@ -59,12 +56,12 @@ class="float-left"
 </div>
 </div>
 <small> 
-    <a href="https://stalwart-narwhal-c01b8c.netlify.app"
+    <a href="https://astonishing-florentine-7caf79.netlify.app"
     target="_blank"
     >Open-source code</a> by Regina Drake
 </small>
 </div>
 </div>
-    <script src="src/app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
