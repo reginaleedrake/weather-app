@@ -64,6 +64,10 @@ font-weight: 400;
     top: -34px;
 }
 
+.weather-temperature .units a {
+    text-decoration: none; 
+}
+
 .weather-temperature .active {
     color: rgb(33, 33, 33);
     text-decoration: none;
