@@ -1,5 +1,6 @@
 body {
     font-family: arial, sans-serif;
+    background: #c4dce0;
 }
 
 h1 {
@@ -37,8 +38,9 @@ text-transform: capitalize;
 
 .weather-app {
     padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 5px;
+    border: 1px solid #38598b;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #38598b;
 }
 
 .overview {
